@@ -13,7 +13,7 @@ $ npm i eslint --save-dev
 Next, install `eslint-plugin-lodash-to-native`:
 
 ```
-$ npm install -S github.com/playhardgopro/eslint-plugin-lodash-to-native.git
+$ npm install -S https://github.com/playhardgopro/eslint-plugin-lodash-to-native.git
 ```
 
 **Note:** If you installed ESLint globally (using the `-g` flag) then you must also install `eslint-plugin-lodash-to-native` globally.
