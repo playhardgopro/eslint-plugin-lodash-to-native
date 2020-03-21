@@ -1,22 +1,18 @@
 /**
- * @fileoverview convert lodash map to native Array.map
- * @author Daniil
+ * @fileoverview Rule to replace the lodash map method to native JavaScript map method
+ * @author Daniil Egortsev
  */
-"use strict";
+'use strict';
 
 //------------------------------------------------------------------------------
 // Requirements
 //------------------------------------------------------------------------------
 
-var requireIndex = require("requireindex");
+var requireIndex = require('requireindex');
 
 //------------------------------------------------------------------------------
 // Plugin Definition
 //------------------------------------------------------------------------------
 
-
 // import all rules in lib/rules
-module.exports.rules = requireIndex(__dirname + "/rules");
-
-
-
+module.exports.rules = requireIndex(__dirname + './lib/rules');

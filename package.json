@@ -1,26 +1,27 @@
 {
   "name": "eslint-plugin-lodash-to-native",
-  "version": "0.0.0",
-  "description": "convert lodash map to native Array.map",
+  "version": "0.0.1",
+  "description": "convert lodash map to native JS map",
   "keywords": [
     "eslint",
     "eslintplugin",
     "eslint-plugin"
   ],
-  "author": "Daniil",
-  "main": "lib/index.js",
+  "author": "Daniil Egortsev",
+  "main": "index.js",
   "scripts": {
+    "lint": "eslint 'lib/**/*.js'",
     "test": "mocha tests --recursive"
   },
   "dependencies": {
-    "requireindex": "~1.1.0"
+    "requireindex": "^1.1.0"
   },
   "devDependencies": {
-    "eslint": "~3.9.1",
-    "mocha": "^3.1.2"
+    "eslint": "^3.9.1",
+    "mocha": "^3.5.3"
   },
   "engines": {
     "node": ">=0.10.0"
   },
-  "license": "ISC"
+  "license": "MIT"
 }
