@@ -12,8 +12,5 @@ module.exports = {
   parserOptions: {
     ecmaVersion: 2018,
     sourceType: 'module'
-  },
-  rules: {
-    'lodash-to-native/map': ['warn', { preferTernar: true }]
   }
 };
