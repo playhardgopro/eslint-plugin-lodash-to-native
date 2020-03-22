@@ -25,7 +25,9 @@ ruleTester.run('map', rule, {
         collection.map(smth => console.log(smth));
     } else {
         _.map(collection, smth => console.log(smth));
-    }`
+    }`,
+    `_ = () => {return 0;}
+      (collection)=> { _.map(collection, smth) }`
   ],
   invalid: [
     {
